@@ -30,6 +30,16 @@ function Nav() {
           >
             Home
           </NavLink>
+        </li>{" "}
+        <li className="Nav-Li">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "Nav-Link Active-Link" : "Nav-Link"
+            }
+            to="Downloads"
+          >
+            Downloads
+          </NavLink>
         </li>
         <li className="Nav-Li">
           <NavLink

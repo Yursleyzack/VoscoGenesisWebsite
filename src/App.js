@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router";
 import AboutUs from "./pages/AboutUs";
+import Downloads from "./pages/Downloads";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route element={<Main />} path="/" />
         <Route element={<AboutUs />} path="/About-Us" />
+        <Route element={<Downloads />} path="/Downloads" />
       </Routes>
 
       <Footer />
