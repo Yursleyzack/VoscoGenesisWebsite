@@ -8,7 +8,7 @@ function Welcome() {
         className="Welcome-Logo"
         src={require("../assets/images/VoscoLogoFinalOrangeText.png")}
         alt="logo"
-        width={"40%"}
+        width={"60%"}
       />
       <Link className="Welcome-Link Centered" to="/Home">
         <spam> Welcome!</spam>
