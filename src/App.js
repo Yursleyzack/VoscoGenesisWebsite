@@ -1,22 +1,21 @@
 import "./App.css";
-import Header from "./components/Header";
+
 import Main from "./pages/Main";
-import Footer from "./components/Footer";
+
 import { Route, Routes } from "react-router";
 import AboutUs from "./pages/AboutUs";
 import Downloads from "./pages/Downloads";
+import Welcome from "./pages/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Routes>
-        <Route element={<Main />} path="/" />
+        <Route element={<Welcome />} path="/" />
+        <Route element={<Main />} path="/Home" />
         <Route element={<AboutUs />} path="/About-Us" />
         <Route element={<Downloads />} path="/Downloads" />
       </Routes>
-
-      <Footer />
     </div>
   );
 }

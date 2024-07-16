@@ -17,6 +17,29 @@ body {
   margin: 8px;
 }
 
+/* Welcome */
+
+.Welcome {
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Welcome-Logo {
+  margin: 25vh;
+}
+
+.Welcome-Link {
+  color: white;
+  background-color: green;
+  width: 40vw;
+  height: 6vh;
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 2vh;
+  font-weight: bold;
+  border-radius: 4vmin;
+}
+
 /* HEADER */
 
 .Header {

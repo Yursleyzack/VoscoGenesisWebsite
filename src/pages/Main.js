@@ -1,16 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Main() {
   return (
-    <main className="Main">
-      <div>Bla Bla Bla</div>
-      <div className="Division1">
-        <div className="TextDiv">
-          <span className="Text">Div 1 text</span>
-          <Link to="About-Us">About Us</Link>
+    <>
+      <Header />
+      <main className="Main">
+        <div>Bla Bla Bla</div>
+        <div className="Division1">
+          <div className="TextDiv">
+            <span className="Text">Div 1 text</span>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <Footer />
+    </>
   );
 }

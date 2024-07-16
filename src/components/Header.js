@@ -26,7 +26,7 @@ function Nav() {
             className={({ isActive }) =>
               isActive ? "Nav-Link Active-Link" : "Nav-Link"
             }
-            to="/"
+            to="/Home"
           >
             Home
           </NavLink>
@@ -36,7 +36,7 @@ function Nav() {
             className={({ isActive }) =>
               isActive ? "Nav-Link Active-Link" : "Nav-Link"
             }
-            to="Downloads"
+            to="/Downloads"
           >
             Downloads
           </NavLink>
@@ -46,7 +46,7 @@ function Nav() {
             className={({ isActive }) =>
               isActive ? "Nav-Link Active-Link" : "Nav-Link"
             }
-            to="About-Us"
+            to="/About-Us"
           >
             About US
           </NavLink>
