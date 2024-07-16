@@ -7,27 +7,86 @@ body {
   background-color: #f5f5f5;
 }
 
-.Header {
-  margin: 8px;
-
+.Centered {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: green;
-  height: 26vh;
-}
-
-.HeaderTitle {
-  font-size: 7vmin;
-  font-weight: bold;
 }
 
 .Main {
   margin: 8px;
 }
 
-.Footer {
+/* HEADER */
+
+.Header {
   margin: 8px;
+  flex-direction: column;
+  background-color: black;
+  background-image: url("./assets/images/HeaderBackground.jpg");
+  background-size: cover;
+  height: 25vh;
+}
+
+.Header-Div {
+  width: 100%;
+  height: 20vh;
+}
+
+.HeaderTitle {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.Header-Logo-Title {
+  background-color: rgb(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Navigation */
+nav {
+  height: 5vh;
+  background-color: green;
+
+  width: 100%;
+}
+
+.Nav-Ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Nav-Li {
+  list-style: none;
+}
+
+.Nav-Link {
+  padding: 4px 20px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.Active-Link {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+.Footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: calc(100% - 32px);
+  position: absolute;
+  bottom: 0;
+  margin: 8px;
+  padding: 8px;
   height: 100px;
   background-color: green;
 }
