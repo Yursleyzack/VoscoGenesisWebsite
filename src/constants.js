@@ -1,0 +1,39 @@
+export const Reasons = [
+  {
+    id: 1,
+    text: "Make learning about the environment fun and interactive",
+  },
+  {
+    id: 2,
+    text: "Teach valuable skills like critical thinking and problem-solving",
+  },
+  {
+    id: 3,
+    text: "Inspire players to adopt eco-friendly habits in real life",
+  },
+  {
+    id: 4,
+    text: "Bring people  in the fight against climate change ",
+  },
+];
+
+export const SocialMedias = [
+  {
+    id: 1,
+    name: "Instagram",
+    acc: "@vosco_genesis",
+    link: "https://www.instagram.com/vosco_genesis/",
+  },
+  {
+    id: 2,
+    name: "Facebook",
+    acc: "Vosco Genesis",
+    link: "https://www.facebook.com/profile.php?id=61562443900389",
+  },
+  //   {
+  //     id: 3,
+  //     name: "TikTok",
+  //     acc: "@vosco_genesis",
+  //     link: "https://www.facebook.com/profile.php?id=61562443900389",
+  //   },
+];

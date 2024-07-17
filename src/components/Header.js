@@ -30,7 +30,7 @@ function Nav() {
           >
             Home
           </NavLink>
-        </li>{" "}
+        </li>
         <li className="Nav-Li">
           <NavLink
             className={({ isActive }) =>

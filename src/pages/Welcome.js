@@ -11,7 +11,7 @@ function Welcome() {
         width={"60%"}
       />
       <Link className="Welcome-Link Centered" to="/Home">
-        <spam> Welcome!</spam>
+        <span> Welcome!</span>
       </Link>
     </div>
   );
