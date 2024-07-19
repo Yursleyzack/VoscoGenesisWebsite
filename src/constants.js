@@ -37,3 +37,27 @@ export const SocialMedias = [
   //     link: "https://www.facebook.com/profile.php?id=61562443900389",
   //   },
 ];
+
+{
+  /* TO DO:
+  
+
+  - Learn React Router
+  - Learn to create elements from an array
+  - Learn useState, useEffects 
+  - Learn Zustand
+
+  
+  
+  
+  */
+}
+
+export const Games = [
+  {
+    id: 1,
+    name: "Zero Carbon",
+    image: require("./assets/images/VoscoLogoFinalOrangeText.png"),
+    link: "/ZeroCarbon",
+  },
+];
