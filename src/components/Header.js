@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 import Logo from "../assets/images/VoscoLogoFinalOrangeText.png";
+import Nav from "./Nav";
 
 export default function Header() {
   return (
@@ -11,47 +12,6 @@ export default function Header() {
           <span className="Header-Title">Vosco Genesis</span>
         </div>
       </div>
-
-      <Nav />
     </header>
-  );
-}
-
-function Nav() {
-  return (
-    <nav className="Centered">
-      <ul className="Nav-Ul Centered">
-        <li className="Nav-Li ">
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "Nav-Link Active-Link" : "Nav-Link"
-            }
-            to="/Home"
-          >
-            Home
-          </NavLink>
-        </li>
-        <li className="Nav-Li">
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "Nav-Link Active-Link" : "Nav-Link"
-            }
-            to="/Downloads"
-          >
-            Downloads
-          </NavLink>
-        </li>
-        <li className="Nav-Li">
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "Nav-Link Active-Link" : "Nav-Link"
-            }
-            to="/About-Us"
-          >
-            About US
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
   );
 }

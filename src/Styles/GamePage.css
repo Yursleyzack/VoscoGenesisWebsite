@@ -18,3 +18,27 @@ header {
   border-radius: 20px;
   border-color: none;
 }
+
+.Download-btn:hover {
+  color: white;
+  background-color: rgb(4, 109, 29);
+}
+
+.Game {
+  transform: scale(1);
+  animation: Pulse 1s infinite;
+}
+
+@keyframes Pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.07);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

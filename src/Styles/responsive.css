@@ -16,6 +16,7 @@
   }
 
   .Division {
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +24,7 @@
   }
 
   .Carousel {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,5 +53,10 @@
   .Warning {
     font-size: 30pt;
     height: 100px;
+  }
+
+  .Game-Header {
+    height: 70vh;
+    background-position: center;
   }
 }

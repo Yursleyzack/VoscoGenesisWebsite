@@ -12,7 +12,7 @@ function OurGames() {
         {games.map((game) => (
           <Link
             to={game.link}
-            className="Carousel-Component Centered"
+            className="Carousel-Component Game Centered"
             style={{
               width: "400px",
 

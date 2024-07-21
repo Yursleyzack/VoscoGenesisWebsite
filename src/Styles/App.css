@@ -87,8 +87,10 @@ h1 {
 nav {
   height: 5vh;
   background-color: green;
-
+  position: sticky;
+  top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .Nav-Ul {
@@ -168,6 +170,15 @@ nav {
   background-color: black;
   border-radius: 5vh;
   flex-direction: column;
+  box-shadow: 20px 20px 100px 2px rgb(4, 109, 29);
+}
+
+.Carousel-Component:hover {
+  background-image: radial-gradient(rgba(0, 0, 0), rgba(36, 241, 0));
+}
+
+.Carousel-Component:active {
+  background-image: radial-gradient(rgba(0, 0, 0), rgba(36, 241, 0));
 }
 
 .Carousel-Component span {
@@ -194,6 +205,15 @@ nav {
   width: 200px;
   margin: 10px;
   background-color: black;
+  box-shadow: 20px 20px 100px 2px rgb(4, 109, 29);
   flex-direction: column;
   border-radius: 5vh;
+}
+
+.social:hover {
+  background-image: radial-gradient(rgba(0, 0, 0), rgba(36, 241, 0));
+}
+
+.social:active {
+  background-image: radial-gradient(rgba(0, 0, 0), rgba(36, 241, 0));
 }
