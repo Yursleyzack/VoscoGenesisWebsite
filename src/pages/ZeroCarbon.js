@@ -10,7 +10,7 @@ function ZeroCarbon() {
         className="Game-Header"
       ></header>
       <div className="Download-Game Centered">
-        <span>Download Carbon Zero</span>
+        <span>Download Dekarbon</span>
         <a href={require("../assets/apks/Dekarbon.apk")} download>
           <button className="Download-btn">Download</button>
         </a>
