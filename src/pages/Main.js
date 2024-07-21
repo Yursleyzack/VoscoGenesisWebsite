@@ -4,12 +4,15 @@ import Footer from "../components/Footer";
 import OurGames from "../components/Main/OurGames";
 import WhyPlay from "../components/Main/WhyPlay";
 import Community from "../components/Main/Community";
+import { isInDevelopment } from "../constants";
+import Warning from "../components/warning";
 
 export default function Main() {
   return (
     <>
       <Header />
       <main className="Main">
+        {isInDevelopment ? <Warning /> : null}
         <OurGames />
         <WhyPlay />
         <Community />

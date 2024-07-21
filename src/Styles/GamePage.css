@@ -1,0 +1,20 @@
+header {
+  height: 25vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.Download-Game {
+  font-size: 7vmin;
+  height: 15vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Download-btn {
+  background-color: #0f0;
+  height: 5vh;
+  width: 90vw;
+  border-radius: 20px;
+  border-color: none;
+}

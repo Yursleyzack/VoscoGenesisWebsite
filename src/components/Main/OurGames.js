@@ -13,12 +13,16 @@ function OurGames() {
           <Link
             to={game.link}
             className="Carousel-Component Centered"
-            style={{ width: "400px" }}
+            style={{
+              width: "400px",
+
+              backgroundImage: `url(${game.image})`, // Use the imported image
+              backgroundSize: "cover", // Ensure the image covers the element
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat", // Prevent the image from repeating
+            }}
             key={game.id}
-          >
-            <img src={game.image} alt={game.name} width="150px" />
-            <span>{game.name}</span>
-          </Link>
+          ></Link>
         ))}
       </div>
     </div>

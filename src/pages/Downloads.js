@@ -7,8 +7,8 @@ function Downloads() {
     <>
       <Header />
       <main className="Main">
-        <a href={require("../assets/apks/storyshots-2-9-1.apk")} download>
-          StoryShots APK
+        <a href={require("../assets/apks/Dekarbon.apk")} download>
+          Dekarbon App
         </a>
       </main>
       <Footer />

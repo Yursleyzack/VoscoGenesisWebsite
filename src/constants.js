@@ -1,3 +1,10 @@
+import Dekarbon from "./assets/images/DekarbonCover.png";
+import InstaIcon from "./assets/images/instagram.png";
+import facebookIcon from "./assets/images/facebook.png";
+import tiktokIcon from "./assets/images/tiktok.png";
+
+export const isInDevelopment = true;
+
 export const Reasons = [
   {
     id: 1,
@@ -23,19 +30,22 @@ export const SocialMedias = [
     name: "Instagram",
     acc: "@vosco_genesis",
     link: "https://www.instagram.com/vosco_genesis/",
+    image: InstaIcon,
   },
   {
     id: 2,
     name: "Facebook",
     acc: "Vosco Genesis",
     link: "https://www.facebook.com/profile.php?id=61562443900389",
+    image: facebookIcon,
   },
-  //   {
-  //     id: 3,
-  //     name: "TikTok",
-  //     acc: "@vosco_genesis",
-  //     link: "https://www.facebook.com/profile.php?id=61562443900389",
-  //   },
+  {
+    id: 3,
+    name: "TikTok",
+    acc: "@vosco_genesis",
+    link: "https://www.facebook.com/profile.php?id=61562443900389",
+    image: tiktokIcon,
+  },
 ];
 
 {
@@ -56,8 +66,8 @@ export const SocialMedias = [
 export const Games = [
   {
     id: 1,
-    name: "Zero Carbon",
-    image: require("./assets/images/VoscoLogoFinalOrangeText.png"),
+    name: "Dekarbon",
+    image: Dekarbon,
     link: "/ZeroCarbon",
   },
 ];
