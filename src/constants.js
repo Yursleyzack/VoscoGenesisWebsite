@@ -48,21 +48,6 @@ export const SocialMedias = [
   },
 ];
 
-{
-  /* TO DO:
-  
-
-  - Learn React Router
-  - Learn to create elements from an array
-  - Learn useState, useEffects 
-  - Learn Zustand
-
-  
-  
-  
-  */
-}
-
 export const Games = [
   {
     id: 1,
