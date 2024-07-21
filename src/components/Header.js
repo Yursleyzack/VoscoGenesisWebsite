@@ -1,7 +1,6 @@
 import React from "react";
 
 import Logo from "../assets/images/VoscoLogoFinalOrangeText.png";
-import Nav from "./Nav";
 
 export default function Header() {
   return (
