@@ -3,9 +3,11 @@ import { SocialMedias } from "../../constants";
 
 function Community() {
   return (
-    <div className="Division ">
+    <div className="Division Community">
       <h1>Community</h1>
-      <span>Click on icon to go to one of our pages!</span>
+      <span className="Community-Span">
+        Click on icon to go to one of our pages!
+      </span>
       <div className="Social-Medias Centered">
         {SocialMedias.map((social) => (
           <div key={social.id} className="social Centered">

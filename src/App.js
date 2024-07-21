@@ -1,4 +1,5 @@
 import "./Styles/App.css";
+import "./Styles/responsive.css";
 
 import Main from "./pages/Main";
 

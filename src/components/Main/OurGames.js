@@ -6,7 +6,7 @@ const games = Games;
 
 function OurGames() {
   return (
-    <div className="Division ">
+    <div className="Division">
       <h1>OUR GAMES</h1>
       <div className="Carousel">
         {games.map((game) => (

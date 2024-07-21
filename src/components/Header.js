@@ -8,7 +8,7 @@ export default function Header() {
       <div className="Header-Div">
         <div className="Header-Logo-Title">
           <img src={Logo} alt="Logo" width={"10%"} />
-          <span className="HeaderTitle">Vosco Genesis</span>
+          <span className="Header-Title">Vosco Genesis</span>
         </div>
       </div>
 

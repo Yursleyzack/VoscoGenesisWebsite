@@ -1,0 +1,55 @@
+@media (min-width: 800px) {
+  .Header {
+    height: 90vh;
+  }
+
+  .Header-Div {
+    height: 80vh;
+  }
+
+  .Header-Logo-Title {
+    background-color: #fff0;
+  }
+
+  .Header-Title {
+    font-size: 40pt;
+  }
+
+  .Division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Social-Medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    height: 10vh;
+    font-size: 30pt;
+  }
+
+  .Community-Span {
+    font-size: 20pt;
+    margin: 10px;
+  }
+
+  .Community {
+    height: 35vh;
+  }
+
+  .Warning {
+    font-size: 30pt;
+    height: 100px;
+  }
+}
