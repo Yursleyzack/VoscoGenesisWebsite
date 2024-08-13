@@ -5,7 +5,7 @@
 
 body {
   background-color: #d3f1d6;
-  background-image: linear-gradient(#ffffff, #48d960);
+  background-image: linear-gradient(#1b1b1b 37%, #48d960, #1b1b1b);
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -31,27 +31,6 @@ h1 {
 }
 
 /* Welcome */
-
-.Welcome {
-  height: 100vh;
-  flex-direction: column;
-}
-
-.Welcome-Logo {
-  margin-bottom: 20vh;
-}
-
-.Welcome-Link {
-  color: white;
-  background-color: green;
-  width: 40vw;
-  height: 6vh;
-  text-align: center;
-  text-decoration-line: none;
-  font-size: 2vh;
-  font-weight: bold;
-  border-radius: 4vmin;
-}
 
 /* HEADER */
 
@@ -152,16 +131,6 @@ nav {
   align-items: flex-start;
 }
 
-@keyframes scroll-horizontal {
-  0% {
-    left: 100vw;
-  }
-
-  100% {
-    left: -100vw;
-  }
-}
-
 .Carousel-Component {
   color: green;
   height: 23vh;
@@ -191,6 +160,10 @@ nav {
 }
 
 /* COMMUNITY */
+
+.Community-Span {
+  color: white;
+}
 
 .Social-Medias {
   justify-content: flex-start;

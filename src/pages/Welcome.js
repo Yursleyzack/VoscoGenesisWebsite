@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "../Styles/Welcome.css";
+
 function Welcome() {
   return (
     <div className="Welcome Centered">
@@ -8,7 +10,7 @@ function Welcome() {
         className="Welcome-Logo"
         src={require("../assets/images/VoscoLogoFinalOrangeText.png")}
         alt="logo"
-        width={"60%"}
+        // width={"60%"}
       />
       <Link className="Welcome-Link Centered" to="/Home">
         <span> Welcome!</span>

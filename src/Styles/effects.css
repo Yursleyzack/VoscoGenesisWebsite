@@ -1,0 +1,40 @@
+.Nav-Li:hover {
+  background-color: #06f806;
+  border-radius: 10px;
+}
+
+.Game {
+  transform: scale(1);
+  animation: Pulse 1s infinite;
+}
+
+.Game:hover {
+  animation: Grow 2s;
+  transform: scale(1);
+}
+
+@keyframes Pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.07);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes Grow {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

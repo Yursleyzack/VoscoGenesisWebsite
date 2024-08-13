@@ -1,5 +1,6 @@
 import "./Styles/App.css";
 import "./Styles/responsive.css";
+import "./Styles/effects.css"
 
 import Main from "./pages/Main";
 

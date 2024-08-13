@@ -16,7 +16,7 @@
   }
 
   .Division {
-    height: 35vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,9 +31,11 @@
   }
 
   .Social-Medias {
+    overflow: visible;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
   }
 
   nav {
@@ -47,6 +49,7 @@
   }
 
   .Community {
+    padding: 20px;
     height: 35vh;
   }
 
