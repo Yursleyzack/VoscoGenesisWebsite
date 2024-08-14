@@ -32,13 +32,13 @@ function ZeroCarbon() {
           Number of downloads:{" "}
           {downloadCount !== null ? downloadCount : "loading..."}
         </span>
-        <span>Download Dekarbon</span>
+
         <a href={require("../assets/apks/Dekarbon.apk")} download>
           <button
             className="Download-btn"
             onClick={() => incrementDownloads(gameID)}
           >
-            Download
+            Download Dekarbon
           </button>
         </a>
       </div>

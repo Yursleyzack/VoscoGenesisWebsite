@@ -23,7 +23,7 @@ export async function getDownloadCount(gameId) {
 }
 
 export async function incrementDownloads(row_id) {
-  const { data, error } = await supabase.rpc("incrementcount", {
+  const { error } = await supabase.rpc("incrementcount", {
     x: 1,
     row_id: row_id,
   });
