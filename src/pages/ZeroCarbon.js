@@ -1,10 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Styles/GamePage.css";
 import DekarbonCover from "../assets/images/DekarbonCover.png";
 import Nav from "../components/Nav";
 
+import { getDownloadCount } from "../supabase";
+import { incrementDownloads } from "../supabase";
+
 function ZeroCarbon() {
-  const [DownloadCounter, setDownloadCounter] = useState(0);
+  const gameID = 1;
+  console.log(getDownloadCount(gameID));
+  const [downloadCount, setDownloadCount] = useState(null);
+  useEffect(() => {
+    const fetchDownloadCount = async () => {
+      const count = await getDownloadCount(gameID);
+      setDownloadCount(count);
+    };
+    fetchDownloadCount();
+  }, []);
+  // const [DownloadCounter, setDownloadCounter] = useState(
+  //   downloads_data[1].count
+  // );
   return (
     <div className="ZeroCarbon">
       <Nav />
@@ -13,12 +28,15 @@ function ZeroCarbon() {
         className="Game-Header"
       ></header>
       <div className="Download-Game Centered">
-        <span>Number of downloads: {DownloadCounter}</span>
+        <span>
+          Number of downloads:{" "}
+          {downloadCount !== null ? downloadCount : "loading..."}
+        </span>
         <span>Download Dekarbon</span>
         <a href={require("../assets/apks/Dekarbon.apk")} download>
           <button
             className="Download-btn"
-            onClick={() => setDownloadCounter(DownloadCounter + 1)}
+            onClick={() => incrementDownloads(gameID)}
           >
             Download
           </button>

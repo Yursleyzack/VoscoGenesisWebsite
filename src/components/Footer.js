@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Footer() {
-  return <footer className="Footer">Footer</footer>;
+  return <footer className="Temporary Footer">Footer</footer>;
 }
