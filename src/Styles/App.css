@@ -101,17 +101,18 @@ nav {
   align-items: flex-start;
   justify-content: space-between;
   width: calc(100% - 32px);
-
+  border-top: 4px solid black;
   margin: 30px 8px 0 8px;
   padding: 8px;
   height: 100px;
-  background-color: green;
+  background-color: #0000;
 }
 
 /*-------------------------- MAIN- ---------------------------- */
 
 .Main {
   margin: 8px;
+  min-height: 60vh;
 }
 
 .Division {
