@@ -1,0 +1,23 @@
+.About-Us-Div {
+  height: 58vh;
+  margin: 10vh 0;
+}
+
+.About-Us-Text {
+  margin-bottom: 20px;
+  width: 80vw;
+}
+
+.Card {
+  background-color: #fff3;
+  height: 58vh;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.Group-Photo {
+  margin-top: 6vh;
+  width: calc(80vmin + 40px);
+  border-radius: 12px;
+  overflow: hidden;
+}

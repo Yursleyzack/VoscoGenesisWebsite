@@ -1,0 +1,11 @@
+.Footer-Li {
+  list-style-type: none;
+}
+
+.Footer-Link {
+  color: white;
+}
+
+.Footer-Link:hover {
+  color: black;
+}
