@@ -6,7 +6,7 @@ header {
 
 .Download-Game {
   font-size: 7vmin;
-  height: 15vh;
+  height: 30vh;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -22,4 +22,8 @@ header {
 .Download-btn:hover {
   color: white;
   background-color: rgb(4, 109, 29);
+}
+
+.Download-H1 {
+  font-size: 10vmin;
 }

@@ -77,3 +77,13 @@ export const AboutContent = [
       "Vosco Genesis was founded in 2024 by a group of 7 passionate associates who share a passion for sustainability and education. Our journey began when we recognised the need for engaging resources that  teach people about eco-friendly practices in a fun and interactive way. Inspired by our love for games and the environment, we set out to create innovative solutions that would not only entertain but also empower individuals to make positive changes in their lives. Since our inception, we have worked tirelessly to develop our board game and are now excited to expand our offerings with a video game that encourages real-life sustainable actions.",
   },
 ];
+
+export const DekarbonScreenshots = {
+  screens: [
+    require("./assets/images/Screenshots/Dekarbon_SS_1.jpg"),
+    require("./assets/images/Screenshots/Dekarbon_SS_2.jpg"),
+    require("./assets/images/Screenshots/Dekarbon_SS_3.jpg"),
+    require("./assets/images/Screenshots/Dekarbon_SS_4.jpg"),
+  ],
+  ub: 4,
+};

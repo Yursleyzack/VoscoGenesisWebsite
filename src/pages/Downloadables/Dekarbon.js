@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../../Styles/GamePage.css";
 import DekarbonCover from "../../assets/images/DekarbonCover.png";
+import ScreenShotViewer from "../../components/ScreenShot_Viewer";
 import Nav from "../../components/Nav";
+import { DekarbonScreenshots } from "../../constants";
 
 import { getDownloadCount } from "../../supabase";
 import { incrementDownloads } from "../../supabase";
@@ -27,10 +29,16 @@ function Dekarbon() {
         style={{ backgroundImage: `url(${DekarbonCover})` }}
         className="Game-Header"
       ></header>
+      <h1 className="Download-H1 Centered">Screenshots</h1>
+      <ScreenShotViewer
+        array={DekarbonScreenshots["screens"]}
+        upperBound={DekarbonScreenshots["ub"]}
+      />
       <div className="Download-Game Centered">
+        <h1 className="Download-H1">Download</h1>
         <span className="Centered">
           Number of downloads:
-          {downloadCount !== null ? downloadCount : "loading..."}
+          {downloadCount !== null ? " " + downloadCount : " loading..."}
         </span>
 
         <a href={require("../../assets/apks/Dekarbon.apk")} download>
