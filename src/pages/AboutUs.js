@@ -25,7 +25,7 @@ function AboutUs() {
           return (
             <div key={data.id} className="Division About-Us-Div Centered">
               <div className="Card">
-                <h1>{data.title}</h1>
+                <h1 className="About-Us-Title">{data.title}</h1>
                 <p className="About-Us-Text">
                   <br />
                   {data.paragraph}

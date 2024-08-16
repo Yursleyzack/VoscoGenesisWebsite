@@ -21,3 +21,9 @@
   border-radius: 12px;
   overflow: hidden;
 }
+
+@media (min-width: 800px) {
+  .About-Us-Text {
+    font-size: 3vmin;
+  }
+}
