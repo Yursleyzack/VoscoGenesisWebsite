@@ -3,7 +3,7 @@ import InstaIcon from "./assets/images/instagram.png";
 import facebookIcon from "./assets/images/facebook.png";
 import tiktokIcon from "./assets/images/tiktok.png";
 
-export const isInDevelopment = true;
+export const isInDevelopment = false;
 
 export const Reasons = [
   {
